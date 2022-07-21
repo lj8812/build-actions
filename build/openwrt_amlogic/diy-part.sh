@@ -59,7 +59,7 @@ sed -i "/exit 0/i\sed -i '/coremark/d' /etc/crontabs/root" "$FIN_PATH"
 # 当前可用机型 s922x s922x-n2 s922x-reva a311d s905x3 s905x2 s905x2-km3 s905l3a s912 s912-m8s s905d s905d-ki s905x s905w s905
 
 cat >"$AMLOGIC_SH_PATH" <<-EOF
-amlogic_model=s905x2_s905l3a
+amlogic_model=s905l3a
 amlogic_kernel=5.15.25_5.10.100 -a true
 rootfs_size=960
 EOF
@@ -85,4 +85,7 @@ config.buildinfo
 feeds.buildinfo
 sha256sums
 version.buildinfo
+0718-Lede-armvirt-64-default.manifest
+0718-Lede-armvirt-64-Image
+0718-Lede-armvirt-64-Image-initramfs
 EOF
