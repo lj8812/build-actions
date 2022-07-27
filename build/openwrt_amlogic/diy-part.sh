@@ -60,7 +60,7 @@ sed -i "/exit 0/i\sed -i '/coremark/d' /etc/crontabs/root" "$FIN_PATH"
 
 cat >"$AMLOGIC_SH_PATH" <<-EOF
 amlogic_model=s905l3a
-amlogic_kernel=5.15.25 -a true
+amlogic_kernel=5.15.25_5.10.100 -a true
 rootfs_size=960
 EOF
 
@@ -88,4 +88,6 @@ version.buildinfo
 0718-Lede-armvirt-64-default.manifest
 0718-Lede-armvirt-64-Image
 0718-Lede-armvirt-64-Image-initramfs
+ipk.tar.gz
+0721-Lede_s905l3a_k5.10.131_2022.07.21.1601.img.gz
 EOF
