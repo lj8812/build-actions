@@ -88,4 +88,5 @@ version.buildinfo
 0718-Lede-armvirt-64-default.manifest
 0718-Lede-armvirt-64-Image
 0718-Lede-armvirt-64-Image-initramfs
+0721-Lede_s905l3a_k5.10.131_2022.07.21.1601.img.gz
 EOF
